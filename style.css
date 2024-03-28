@@ -1,0 +1,167 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin-left: 70px;
+    margin-right: 40px;
+    margin-top: 10px;
+    background-image: url("code.png"), linear-gradient(to bottom, #71b8f5,#F3F5FC );
+    
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajusta el tamaño para cubrir todo el cuerpo */
+      
+}
+
+
+#logo{
+    margin-top: 15px;
+    display: block;
+}
+
+main{
+    display: inline-block;
+}
+
+
+#container-texto textarea{
+    padding-top: 150px;
+    
+}
+
+#buton1{
+
+    width: 250px;
+    height: 20px;
+    padding-top: 12px;
+    padding-bottom: 25px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    border: solid #0A3871 1px;
+    transition: 1s all;
+    color: #ffffff;
+    margin: 10px;
+   
+}
+
+#buton1:hover{
+    background-color: #1a549b;
+}
+
+
+
+#texto_btn_1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    text-align: center;
+}
+
+
+#buton2{
+
+    width: 250px;
+    height: 20px;
+    padding-top: 12px;
+    padding-bottom: 25px;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    border: solid #0A3871 1px;
+    transition: 1s all;
+    margin: 10px;
+  
+}
+
+#buton2:hover{
+    background-color: #b4b4b4;
+}
+
+
+#container-encriptador{
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    background: #ffffff;
+    border-radius: 32px;
+    margin-left: 28px;
+    border: 2px solid #0A3871;
+    overflow-y: auto; /* Agrega barras de desplazamiento verticales cuando el contenido es demasiado grande */
+    overflow-x: hidden; /* Oculta las barras de desplazamiento horizontales */
+
+}
+
+
+footer{
+    margin-top: 25px;
+}
+
+footer p{
+    text-align: center;
+}
+
+
+#incial{
+    padding-top: 50px;
+}
+
+#muneco_inicial{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.mensaje{
+    text-align: center;
+}
+
+#texto_desencriptar{
+    padding-top: 20px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+#buton3{
+    margin-left: 100px;
+    width: 200px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    border: solid #0A3871 1px;
+    transition: 0.5s all;
+  
+}
+
+#buton3:hover{
+    background-color: #b4b4b4;
+}
+
+@media screen and (max-width:480px) {
+    body {
+        width: min-content;
+        background: url("code.png"), linear-gradient(to bottom, #71b8f5, #F3F5FC);
+        
+        background-size: cover;
+    
+        
+        
+    }
+    #container-texto{
+        width: auto;
+        margin-right: 50px;
+    }
+    
+    #container-botones{
+        width: auto;
+        margin-left: 120px;
+    }
+
+    #container-encriptador{
+        width: auto;
+        margin-top: 20px;
+        margin-left: 180px;
+    }
+
+    footer{
+        width: auto;
+        margin-right: 50px;
+    }
+}

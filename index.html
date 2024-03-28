@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ENCRIPTADOR DE TEXTO </title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    
+    <script src="funciones.js"></script>
+</head>
+<body>
+
+
+        <img src="Logo.png" id="logo">
+
+
+        <main> 
+            <!--TEXTO DONDE ESCRIBIRE-->
+            <div id="container-texto">
+                <p class="sena">INSERTA EL TEXTO PARA ENCRIPTAR</p>
+                <textarea id="texto_encriptar" cols="100" rows="13" placeholder="Escribre un texto que deseas encriptar"> </textarea>
+                
+            </div>
+
+            <!--BOTONES-->
+            <div id="container-botones">
+                <p> <img src="Vector.png"> Solo letras en minúsculas y sin acentos</p>
+                
+
+                
+                <button onclick="Encriptar()" id="buton1">
+                    Encriptar
+                </button>
+
+                <button onclick="Desencriptar()" id="buton2">
+                    Desencriptar
+                </button>
+
+            </div>
+        </main>
+    
+        
+        
+        <!--DONDE APARECE EL TEXTO ENCRIPTADO-->
+        <div id="container-encriptador">
+
+            <div id="incial">
+                <img src="muneco.png" id="muneco_inicial">
+                <!--<textarea id="texto_desencriptar" cols="30" rows="10"> </textarea>-->
+                <p id="texto_desencriptar">NO HAY NINGÚN TEXTO INSERTADO </p>
+
+                <button id="buton3" onclick="Copiar()">Copiar</button>
+
+                
+            </div>
+            
+            
+        </div>
+
+
+
+
+        <footer>
+            <p> ©Copyright Alura- Desarrollador: Yrvin Pachas 2024 </p>
+        </footer>
+
+</body>
+
+
+</html>
